@@ -1,0 +1,89 @@
+.text-input {
+    width: 93%;
+    outline: none;
+    padding: 10px;
+}
+.add-segment-panel {
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+    background: #fff;
+}
+
+.segment-form {
+    padding: 20px;
+    font-size: 14px;
+    max-height: 420px;
+    overflow: auto
+}
+
+.btn-add-new-schema {
+    cursor: pointer;
+    color: #41b494;
+    text-decoration: underline;
+}
+
+.selected-segments {
+    border: 2px solid #00a4e0;
+    padding: 4px;
+}
+
+.category-label {
+    text-align: right;
+    margin: 10px;
+}
+
+.lbl-group-traits {
+    margin-left: 7px;
+}
+
+.select-input {
+    padding: 10px;
+    width: 93%;
+    margin: 5px;
+}
+
+.category-indicator {
+    width: 7px;
+    display: inline-block;
+    height: 7px;
+    border-radius: 10px;
+}
+
+.category_user_traits {    
+    background: #41b494;
+}
+
+.category_group_traits {
+    background: #d60000;
+}
+
+.remove-schema {
+    font-size: 30px;
+    color: #41b494;
+}
+
+.add-segment-footer-items {
+    padding: 15px;
+}
+
+.add-segment-footer-items button {
+    padding: 7px;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.btn-cancel-segment {
+    background: #fff;
+    color: #d60000;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bnt-save-segment {
+    background: #41b494;
+    color: #fff;
+    cursor: pointer;
+}
